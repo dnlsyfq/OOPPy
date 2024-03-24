@@ -78,3 +78,20 @@ menu_item1 = MenuItem('Chocolate Cake')
 print(menu_item1.name)
 
 ```
+
+### inheritance
+
+```
+class child(Parent):
+	pass
+
+```
+
+```
+from menu_item import MenuItem
+
+class Food(MenuItem):
+	pass
+```
+
+### Overwrite parent method in child class
