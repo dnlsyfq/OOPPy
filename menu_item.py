@@ -15,3 +15,4 @@ class MenuItem:
 
 		# Round total_price to the nearest whole number and return it
 		return round(total_price)
+

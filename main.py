@@ -1,5 +1,6 @@
 # from menu_item import MenuItem
 from food import Food
+from drink import Drink
 
 # menu_item1 = MenuItem('Sandwich', 5)
 # menu_item2 = MenuItem('Chocolate Cake', 4)
@@ -30,8 +31,7 @@ from food import Food
 # print('Your total is $' + str(result))
 
 
-food1 = Food('Sandwich', 5)
-food1.calorie_count = 330
+food1 = Food('Sandwich', 5, 330)
 food1.calorie_info()
 
 
